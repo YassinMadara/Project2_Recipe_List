@@ -1,0 +1,52 @@
+/* BEM style */
+/* BLOCK */
+.recipe {
+    padding: 15px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+/**/
+.recipe:last-child {          /*manipulating the last child component*/
+    border-bottom: none;      /*removing the bottom border which we set be default*/ 
+    padding-bottom: 50px;     
+    }
+    
+/* Element */
+.recipe__header{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Element */
+.recipe__title {
+    margin: 0px;
+    font-size: 2rem;
+}
+
+/* Element */
+.recipe__row {
+    margin-bottom: 10px;
+}
+    
+/* Element */
+.recipe__label {
+    margin-right: 10px;
+}
+
+.recipe__value {
+    font-weight: 300;
+}
+
+/* Modifier */
+.recipe__value--indented {      /*modifing and adding extra indentation for specfic elements*/   
+    margin-top: 10px;
+    margin-left: 20px;       
+  }
+
+/* Element */  
+.recipe__instructions {
+    white-space: pre-wrap ;  /*each time it see white space in a string  >> it preserve it*/
+  }
+

@@ -1,0 +1,12 @@
+.recipe-list {
+    border-right: 1px solid black;    /*adding solid line to the right of the RecipeList */
+    min-height: 100vh;                  /*the RecipeList container will fill the full height*/
+    width: 50%;                        /* RecipeList will populate 50% of the screen*/
+  }
+  
+
+.recipe-list__add-recipe-btn-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }

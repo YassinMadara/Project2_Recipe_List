@@ -1,0 +1,30 @@
+/* BEM style  */
+/* Block */
+.btn{
+    background: none;             /*Remove the default background color, which is gray*/
+    border: none;                 /*Remove the default border*/
+    outline: none;
+    font-weight: bold;           
+    border-radius: 5px;          /*giving the button a rounded corners*/
+    font-size: inherit;          /*it will inherit the 25px from html element*/
+    padding: 5px 20px;
+    cursor: pointer;            /*the mouse cursor icon when hover over the button*/
+}
+/* modifier */
+.btn-primary {
+    color: white;
+    background-color: hsl(200, 70%, 50%);            /*hsl (hue saturation lightness) */
+}
+
+.btn-primary:hover {
+    background-color: hsl(200, 90%, 35%);
+}
+
+
+.btn-danger {
+    color: white;
+    background-color: hsl(10, 70%, 50%);
+}
+.btn-danger:hover {
+    background-color: hsl(0, 90%, 35%);
+}

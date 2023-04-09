@@ -1,0 +1,7 @@
+.ingredient-list {
+    display: grid;
+    grid-template-columns: repeat(2,auto);    /*it sets two columns with an "auto" size value for each column, So the result is a grid layout with two columns of equal width, where the width of each column is determined by the content of the grid items within that column.*/
+    row-gap: 5px;                /*the gap between rows*/
+    column-gap: 40px;            /*the gap between columns*/  /*or, use gap row column */
+    justify-content: flex-start;  /*specify that the content to show at the beginning of our container*/
+}
