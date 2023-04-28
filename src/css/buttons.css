@@ -11,20 +11,20 @@
     cursor: pointer;            /*the mouse cursor icon when hover over the button*/
 }
 /* modifier */
-.btn-primary {
+.btn--primary {
     color: white;
     background-color: hsl(200, 70%, 50%);            /*hsl (hue saturation lightness) */
 }
 
-.btn-primary:hover {
+.btn--primary:hover {
     background-color: hsl(200, 90%, 35%);
 }
 
 
-.btn-danger {
+.btn--danger {
     color: white;
     background-color: hsl(10, 70%, 50%);
 }
-.btn-danger:hover {
+.btn--danger:hover {
     background-color: hsl(0, 90%, 35%);
 }
