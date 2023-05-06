@@ -3,16 +3,19 @@ import IngredientList from "./IngredientList";
 import { RecipeContext } from './App';
 
 export default function Recipe(props) {
-  const {handleRecipeDelete, handleSelectedRecipe} = useContext(RecipeContext)
-  const {
-      id,
-      name, 
-      cookTime, 
-      servings, 
-      instructions, 
-      ingredients,
-  } = props 
-
+    const {
+        id,
+        name, 
+        cookTime, 
+        servings, 
+        instructions, 
+        ingredients,
+    } = props 
+  
+    const {
+    handleRecipeDelete,
+    handleSelectedRecipe
+    } = useContext(RecipeContext)
  
   return (
   <div className="recipe">
