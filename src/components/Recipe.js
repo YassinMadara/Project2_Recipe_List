@@ -14,7 +14,7 @@ export default function Recipe(props) {
   
     const {
     handleRecipeDelete,
-    handleSelectedRecipe
+    handleSelectedRecipe,
     } = useContext(RecipeContext)
  
   return (
