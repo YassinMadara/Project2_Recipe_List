@@ -1,0 +1,23 @@
+.recipe-search__container{
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+    /* width: 45%; */
+    background-color: hsl(200, 70%, 50%);            /*hsl (hue saturation lightness) */
+    margin: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.recipe-search__label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.recipe-search__input{
+    font-size: 0.8em;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px;
+}
